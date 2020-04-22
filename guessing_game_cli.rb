@@ -2,11 +2,7 @@
 
 require 'pry'
 def run_guessing_game
-  
-end 
-
-def practice
-  puts "Guess a number between 1 and 6"
+    puts "Guess a number between 1 and 6"
   computer = (rand(6)+1).to_s 
   input = gets.chomp 
   
@@ -18,6 +14,5 @@ else
   puts "Sorry! The computer guessed #{computer}."
 end 
   
+  
 end 
-
-binding.pry
